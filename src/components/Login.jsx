@@ -72,7 +72,6 @@ export default function Login() {
                         value
                       ) || "Email address must be a valid address",
                   },
-                  me
                 })}
               />
               <div style={{ position: "relative" }}>
@@ -127,3 +126,4 @@ export default function Login() {
     </>
   );
 }
+
